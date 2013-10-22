@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 196.0, 78.0, 902.0, 646.0 ],
+		"rect" : [ 59.0, 86.0, 902.0, 646.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -484,6 +484,8 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.987679, 0.814474, 0.661051, 1.0 ],
+					"bordercolor" : [ 0.692372, 0.4367, 0.233068, 1.0 ],
 					"id" : "obj-78",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -554,16 +556,16 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Futura Condensed Medium",
+					"fontname" : "Futura Condensed ExtraBold",
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-65",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 257.181824, 211.152893, 28.0, 19.0 ],
+					"patching_rect" : [ 257.181824, 211.152893, 38.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 75.0, 28.0, 19.0 ],
+					"presentation_rect" : [ 0.0, 76.0, 38.0, 19.0 ],
 					"text" : "Xfade",
 					"textcolor" : [ 1.0, 0.999974, 0.999991, 1.0 ]
 				}
@@ -571,16 +573,16 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Futura Condensed Medium",
+					"fontname" : "Futura Condensed ExtraBold",
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-64",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 257.181824, 187.652893, 40.0, 19.0 ],
+					"patching_rect" : [ 257.181824, 187.652893, 53.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 54.0, 40.0, 19.0 ],
+					"presentation_rect" : [ 0.0, 55.0, 53.0, 19.0 ],
 					"text" : "Feedback",
 					"textcolor" : [ 1.0, 0.999974, 0.999991, 1.0 ]
 				}
@@ -588,16 +590,16 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Futura Condensed Medium",
+					"fontname" : "Futura Condensed ExtraBold",
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-63",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 257.181824, 159.652893, 59.0, 19.0 ],
+					"patching_rect" : [ 257.181824, 159.652893, 80.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 34.0, 59.0, 19.0 ],
+					"presentation_rect" : [ 0.0, 34.0, 80.0, 19.0 ],
 					"text" : "Delay (Frames)",
 					"textcolor" : [ 1.0, 0.999974, 0.999991, 1.0 ]
 				}
@@ -690,8 +692,10 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"bgcolor" : [ 0.988474, 0.852579, 0.730299, 1.0 ],
+					"fontname" : "Futura Condensed ExtraBold",
 					"fontsize" : 10.0,
+					"framecolor" : [ 0.626047, 0.460371, 0.326949, 1.0 ],
 					"id" : "obj-53",
 					"items" : [ "Classic", ",", "Dark", ",", "Diff" ],
 					"maxclass" : "umenu",
@@ -699,9 +703,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 99.685966, 92.987587, 100.0, 18.0 ],
+					"patching_rect" : [ 99.685966, 92.987587, 100.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 35.0, 8.25, 100.0, 18.0 ]
+					"presentation_rect" : [ 35.0, 8.25, 100.0, 19.0 ]
 				}
 
 			}
@@ -1133,6 +1137,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 109.185966, 66.0, 94.0, 66.0, 94.0, 129.0, 109.185966, 129.0 ],
+					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-55", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1163,7 +1177,7 @@
 					"destination" : [ "obj-79", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 41.851242, 54.0, 78.0, 54.0, 78.0, 111.0, 64.851242, 111.0 ],
+					"midpoints" : [ 41.851242, 54.0, 70.0, 54.0, 70.0, 111.0, 64.851242, 111.0 ],
 					"source" : [ "obj-6", 2 ]
 				}
 

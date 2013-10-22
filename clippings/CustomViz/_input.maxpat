@@ -33,10 +33,10 @@
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
 					"name" : "video.input.maxpat",
-					"numinlets" : 4,
+					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 2.0, 2.0, 159.369003, 160.892258 ],
+					"patching_rect" : [ 2.0, 2.0, 159.605331, 143.944534 ],
 					"varname" : "videoinput"
 				}
 
@@ -45,7 +45,7 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "video.input.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/customViz/patchers",
+				"bootpath" : "/Applications/Max 6.1/packages/tom-vj/patchers",
 				"patcherrelativepath" : "../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
