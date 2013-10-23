@@ -52,7 +52,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 101.5, 27.0, 59.0, 38.0 ],
+					"patching_rect" : [ 101.5, 27.0, 62.0, 38.0 ],
 					"text" : "open, getinputlist, close"
 				}
 
@@ -811,7 +811,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-26",
-					"items" : "<empty>",
+					"items" : "Built-in iSight",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -859,7 +859,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 545.0, 101.5, 160.0, 56.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.25, 65.0, 145.0, 71.901909 ],
+					"presentation_rect" : [ 0.25, 65.0, 159.0, 71.901909 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"size" : 4,
@@ -872,7 +872,6 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"bgcolor" : [ 0.996078, 0.823529, 1.0, 1.0 ],
-					"border" : 1,
 					"bordercolor" : [ 0.487692, 0.336859, 0.497841, 1.0 ],
 					"grad1" : [ 0.996078, 0.823529, 1.0, 1.0 ],
 					"grad2" : [ 0.988744, 0.746857, 0.999647, 1.0 ],
